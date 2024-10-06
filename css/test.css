@@ -1,0 +1,33 @@
+body{
+	background-color: cornsilk;
+}
+h1{
+	
+	font-family: Bebas Neue;
+	font-size: 60px;
+	color: saddlebrown;
+}
+h2{
+	font-family: bebas Neue;
+	font-size: 30px
+}
+span{
+	color: maroon;
+}
+.portfolio-link{
+	font-family: Roboto condensed;
+	font-weight: bold;
+}
+.margin{
+	margin-bottom: 16px;
+}
+.header-container{
+	text-align: center;
+}
+.header-text{
+	margin:  0px;
+	padding: 0px;
+}
+.header-text + .header-text{
+	margin-bottom: 24px;
+}
