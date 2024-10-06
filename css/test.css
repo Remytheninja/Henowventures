@@ -2,7 +2,6 @@ body{
 	background-color: cornsilk;
 }
 h1{
-	
 	font-family: Bebas Neue;
 	font-size: 60px;
 	color: saddlebrown;
@@ -25,9 +24,21 @@ span{
 	text-align: center;
 }
 .header-text{
-	margin:  0px;
-	padding: 0px;
+	margin: 0px;
 }
 .header-text + .header-text{
-	margin-bottom: 24px;
+	margin: 4px;
+}
+.responsive-img{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	column-gap: 16px;
+}
+.responsive-img img{
+	width: 500px;
+	height: 500px;
+	object-fit: contain;
+	margin-left: 16px;
+	margin-right: 16px;
 }
